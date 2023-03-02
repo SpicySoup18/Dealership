@@ -1,1 +1,39 @@
+class car:
+    def __init__(self, make, year, trims, color):
+        self.make = make
+        self.year = year
+        self.trims = trims
+        self.color = color
+    def PrintInfo(self):
+        print('{} {} {} {}'.format(self.make, self.year, self.trims, self.color))
+
+class Challenger(car):
+    def init(self, make, year, trims, color):
+        car.__init__(self, make, year, trims, color)
+
+class Viper(car):
+    def init(self, make, year, trims, color):
+        car.__init__(self, make, year, trims, color)
+
+class Charger(car):
+    def init(self, make, year, trims, color):
+        car.__init__(self, make, year, trims, color)
+
+class M3(car):
+    def init(self, make, year, trims, color):
+        car.__init__(self, make, year, trims, color)
+
+class Series7(car):
+    def init(self, make, year, trims, color):
+        car.__init__(self, make, year, trims, color)
+        
+class Camaro(car):
+    def init(self, make, year, trims, color):
+        car.__init__(self, make, year, trims, color)
+        
+class Mustang(car):
+    def init(self, make, year, trims, color):
+        car.__init__(self, make, year, trims, color)
+        
+chllngr22 = Challenger("Dodge", "2022", "")
 
